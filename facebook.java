@@ -11,7 +11,7 @@ public class facebook {
 
 
         public static void main(String[] args) throws InterruptedException {
-            System.setProperty("webdriver.chrome.driver", "C:\\Users\\f5519101\\workspace\\za.co.fnb.gts.payment\\platform\\chromedriver.exe");
+            System.setProperty("webdriver.chrome.driver", "location to your chrome driver");
             WebDriver driver = new ChromeDriver();
             driver.manage().window().maximize();
             driver.get("https://www.facebook.com");
